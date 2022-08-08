@@ -1,16 +1,16 @@
 # Students API
 
-**_ API for students _**
+** API for students **
 
-GET /students
-GET /students/{id}
-POST /students
-PUT /students/{id}
-DELETE /students/{id}
+- GET /students
+- GET /students/{id}
+- POST /students
+- PUT /students/{id}
+- DELETE /students/{id}
 
-**_ Authentication _**
+** Authentication **
 
-POST /login
-POST /logout
+- POST /login
+- POST /logout
 
 ## Description
