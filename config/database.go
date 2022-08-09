@@ -7,7 +7,6 @@ import (
 )
 
 func NewDB() *gorm.DB {
-	// * postgres
 	db, err := gorm.Open(postgres.Open("postgres://postgres:218799@localhost:5432/go-project?sslmode=disable"), &gorm.Config{})
 	if err != nil {
 		panic(err)
